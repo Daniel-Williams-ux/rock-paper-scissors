@@ -1,6 +1,5 @@
 :root {
   --primary-light: #ddd;
-  --primary-dark: #222831;
   --secondary-dark: #393e46;
   --secondary-dark-hover: #4a4f57;
   --secondary-dark-active: #5b5f68;
@@ -23,7 +22,7 @@ html {
 }
 
 body {
-  background-color: var(--primary-dark);
+  background-color: #008080;
   color: var(--primary-light);
   font-family: 'Roboto', sans-serif;
   line-height: 1.6;
@@ -46,7 +45,7 @@ button {
   display: flex;
   justify-content: center;
   padding: 40px 0px;
-  background-color: var(--header);
+  background-color: var(--secondary-dark);
 }
 
 .title {
